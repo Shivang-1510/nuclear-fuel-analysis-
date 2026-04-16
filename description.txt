@@ -1,0 +1,13 @@
+This module performs nuclear fuel energy analysis by calculating and visualizing the energy released per kilogram of various nuclear fuels during fission reactions.
+
+Key Components:
+
+Constants: Defines energy data for three fuels (U-235, Pu-239, Th-232), conversion factors (MeV to Joules), and atomic masses
+Core Functions:
+energy_per_kg(): Calculates total energy released per kilogram of fuel using atomic physics (atoms per kg × energy per fission)
+calculate_all_fuels(): Processes all available fuels and returns their energy outputs
+print_results(): Displays results in a formatted table
+visualize_results(): Creates a bar chart comparing fuel energy outputs with optional saving
+Main Execution: Runs the complete analysis pipeline—calculating, printing, and visualizing results
+The analysis converts MeV energy values to Terajoules per kilogram, considering Avogadro's number and atomic masses for accurate calculations.
+Nuclear fuel analysis is important for a country to setup its nuclear reactors as it is based on fuel availability and energy released by the fuels available.
