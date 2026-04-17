@@ -1,22 +1,67 @@
-# Technical Report: Nuclear Fuel Energy Analysis
+# Nuclear Fuel Energy Analysis
 
-## Introduction
-This study evaluates the energy potential of commonly used nuclear fuels.
+## Overview
 
-## Formula Used
-Energy = (Energy per fission) × (Number of atoms)
+This project performs a computational analysis of energy output from key nuclear fuels: Uranium-235, Plutonium-239, and Thorium-232. The goal is to compare their energy density and evaluate their suitability for nuclear power generation.
 
-## Assumptions
-- Constant energy per fission
-- Ideal complete fission
-- No losses considered
+## Objectives
+* Compute energy output (TJ/kg) for different nuclear fuels
+* Compare efficiency based on energy density
+* Visualize differences using graphical representation
 
-## Discussion
-Pu-239 exhibits the highest energy density, making it suitable for fast breeder reactors. Thorium offers long-term sustainability but requires conversion to fissile material.
+## Theory
+Energy released in nuclear fission is converted from MeV to Joules and scaled using Avogadro’s number to determine total energy per kilogram of fuel.
 
-## Conclusion
-Fuel selection depends on both energy density and practical feasibility including safety and availability.
+## Methodology
+* Defined energy per fission for each fuel
+* Converted MeV → Joules
+* Calculated atoms per kg using atomic mass
+* Computed total energy output
+* Visualized results using Python
+
+## Results
+
+### Energy Output (Approx.)
+
+* U-235 ≈ 82 TJ/kg
+* Pu-239 ≈ 88 TJ/kg
+* Th-232 ≈ 79 TJ/kg
+
+## Visualization
+
+![Energy Plot](results/energy_plot.png)
+
+## Key Insights
+
+* Pu-239 provides the highest energy output among the studied fuels
+* U-235 is widely used due to stability and availability
+* Th-232 shows strong potential for future thorium-based reactors
+
+## Tools Used
+* Python
+* NumPy
+* Matplotlib
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+python src/main.py
+```
+
+
+## Applications
+* Nuclear fuel comparison studies
+* Reactor design considerations
+* Energy system modeling
 
 ## Future Work
-- Add reactor efficiency modeling
-- Include waste generation analysis
+* Include reactor efficiency modeling
+* Add neutron economy analysis
+* Extend to fuel burnup calculations
+
+## Author
+
+Shivang Arora
+Energy Engineering Student | Nuclear Energy Enthusiast
+
