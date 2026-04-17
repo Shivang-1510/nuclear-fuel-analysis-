@@ -29,7 +29,7 @@ Energy released in nuclear fission is converted from MeV to Joules and scaled us
 
 ## Visualization
 
-![Energy Plot](results/energy_plot.png)
+![Energy Plot](nuclear-fuel-analysis-/results.png)
 
 ## Key Insights
 
