@@ -1,6 +1,5 @@
 """
 Nuclear Fuel Energy Analysis
-
 This module calculates the energy released per kilogram of various nuclear fuels
 during fission reactions and provides visualization of the results.
 """
