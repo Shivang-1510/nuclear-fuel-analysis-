@@ -1,28 +1,21 @@
-# Nuclear Fuel Energy Analysis
+# Technical Report: Nuclear Fuel Energy Analysis
 
-## Overview
-This project analyzes the energy output of different nuclear fuels (U-235, Pu-239, Th-232) using fundamental nuclear physics calculations.
+## Introduction
+This study evaluates the energy potential of commonly used nuclear fuels.
 
-## Objectives
-- Compare energy per kg of nuclear fuels
-- Understand fuel efficiency in nuclear reactors
-- Visualize energy output differences
+## Formula Used
+Energy = (Energy per fission) × (Number of atoms)
 
-## Methodology
-- Used energy per fission values (MeV)
-- Converted to Joules
-- Applied Avogadro's number for total atoms
-- Computed total energy per kg
+## Assumptions
+- Constant energy per fission
+- Ideal complete fission
+- No losses considered
 
-## Results
-- Pu-239 shows highest energy output
-- U-235 widely used due to stability
-- Th-232 promising for future reactors
+## Discussion
+Pu-239 exhibits the highest energy density, making it suitable for fast breeder reactors. Thorium offers long-term sustainability but requires conversion to fissile material.
 
-## Tools Used
-- Python
-- NumPy
-- Matplotlib
+## Conclusion
+Fuel selection depends on both energy density and practical feasibility including safety and availability.
 
 ## Future Work
 - Add reactor efficiency modeling
